@@ -28,7 +28,7 @@ int main()
        printf("\n");
        for(int i=(k+1);i<n;i++)
        { float y=a[i][k];
-           printf("\nR%d->R%d-(%.0f/%.0f)R%d",i+1,i+1,y,x,k+1);
+           printf("\nR%d->R%d-(%.1f/%.1f)R%d",i+1,i+1,y,x,k+1);
            for(int j=0;j<=n;j++)
            {
                a[i][j]-=(y*a[k][j])/x;
